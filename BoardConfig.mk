@@ -22,11 +22,8 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_olivewood
 TARGET_RECOVERY_DEVICE_MODULES := libinit_olivewood
 
 # Kernel
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_CONFIG := olivewood-perf_defconfig
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
-endif
+TARGET_KERNEL_CONFIG := olive-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
 
 # OTA
 TARGET_OTA_ASSERT_DEVICE := olivewood

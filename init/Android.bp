@@ -16,6 +16,7 @@
 cc_library_static {
     name: "libinit_olivewood",
     srcs: ["init_olivewood.cpp"],
+    shared_libs: ["libbase"],
     recovery_available: true,
     include_dirs: [
         "system/core/base/include",
