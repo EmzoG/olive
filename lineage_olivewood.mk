@@ -29,6 +29,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 8A Dual
 PRODUCT_MANUFACTURER := Xiaomi
 
+BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ2A.210305.006/7119741:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="olivewood-user 10 QKQ1.191014.001 V11.0.5.0.QCMMIXM release-keys" \
     PRODUCT_NAME="olivewood" \
