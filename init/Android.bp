@@ -14,8 +14,8 @@
 // limitations under the License.
 //
 cc_library_static {
-    name: "libinit_olivewood",
-    srcs: ["init_olivewood.cpp"],
+    name: "libinit_olive",
+    srcs: ["init_olive.cpp"],
     shared_libs: ["libbase"],
     recovery_available: true,
     include_dirs: [
