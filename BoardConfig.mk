@@ -26,7 +26,7 @@ TARGET_KERNEL_CONFIG := olive-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
 
 # OTA
-TARGET_OTA_ASSERT_DEVICE := olivewood
+TARGET_OTA_ASSERT_DEVICE := olive,olivewood,olivelite
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 4294967296
